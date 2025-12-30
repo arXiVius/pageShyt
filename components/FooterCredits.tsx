@@ -48,6 +48,15 @@ const FooterCredits: React.FC = () => {
             <span>GITHUB ACC</span>
             <span className="text-[8px] opacity-60">@ARXIVIUS</span>
           </a>
+                    <a 
+            href="https://arxivius.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:bg-white hover:text-black px-2 py-1 flex justify-between items-center gap-8 transition-colors font-bold text-xs"
+          >
+            <span>PORTFOLIO</span>
+            <span className="text-[8px] opacity-60">@SITE</span>
+          </a>
           <button 
             onClick={(e) => { e.stopPropagation(); setIsOpen(false); }}
             className="mt-2 text-[8px] text-center opacity-40 hover:opacity-100 transition-opacity border-t border-white/20 pt-2"
